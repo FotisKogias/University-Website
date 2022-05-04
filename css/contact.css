@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* HEADER */
+
+#upper_img{
+    margin-right: 90px;
+}
+
+#main_pic{
+    background: url(../images/University-Oxford.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px!important;   
+}
+
+.navbar-bg-color{
+    background-color: rgb(9, 67, 114, 0.8);
+    
+}
+
+nav{
+    border: rgb(255, 255, 255, 0.4) ridge ;
+    border-width: 1px;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.navbar-nav a{
+    color: white!important;
+    font-size: 18px;
+}
+
+/* Hover effects */
+.navbar-nav a:hover{
+    color: rgb(212, 212, 29)!important;
+    background-color: transparent!important;
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+      
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+        
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+.navbar-nav li{
+    margin-left: 20px;
+}
+
+.dropdown-menu {
+    min-width: fit-content !important;
+}
+
+.dropdown-menu li{
+    margin: 0;
+    padding: 0;
+}
+/* Hamburger styling */
+.hamburger{
+    margin-left: auto;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler span{
+    font-size: 26px;
+}
+
+/* CONTACT */
+section{
+    background-color: rgb(56, 54, 54);
+    font-family: serif;
+}
+
+.contact-box{
+    border-color: rgb(75,75,75)!important;
+    border: solid 1px;
+}
+
+.contact-box-color{
+    background-color: rgb(34,34,34);
+}
+
+.card h4{
+    font-size: medium;
+    color: rgb(114,180,255);
+}
+
+.card li{
+    color: white;
+    background-color: rgb(34,34,34);
+    border-style: none;
+    border-bottom:rgb(211, 210, 210) dotted;
+    border-width: 1px;
+}
+
+.card li a:hover{
+    color: rgb(255,203,11)!important;
+    text-decoration: underline!important;
+}
+
+
+
+.margin-right{
+    padding-right: 80px;
+}
+
+/* FOOTER */
+
+.footer-color{
+    background-color: rgb(0, 39, 76);
+}
+
+.flogo{
+    height: 105px;
+}
+
+@media only screen and (max-width: 768px) {
+    footer img{
+      display: none;
+    }
+  }
